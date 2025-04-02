@@ -1,5 +1,8 @@
 # Adequate Matrix - An Immaculate Grid Clone
- A built-from-scratch replica of Sports Reference's [Immaculate Grid](https://www.immaculategrid.com/) web game using Python and the [Lahman Baseball Database](http://seanlahman.com/) in the form of the [pybaseball](https://github.com/jldbc/pybaseball) library. The interface for this game was made using [Pygame](https://www.pygame.org) and [Pygame GUI](https://pygame-gui.readthedocs.io/en/latest/).
+ A built-from-scratch replica of Sports Reference's [Immaculate Grid](https://www.immaculategrid.com/) web game using Python and the [Lahman Baseball Database](http://seanlahman.com/). The interface for this game was made using [Pygame](https://www.pygame.org) and [Pygame GUI](https://pygame-gui.readthedocs.io/en/latest/).
+
+ > [!NOTE]
+ > The Lahman Database included in this repo only has data up to the 2023 MLB season. Any stats from the 2024 or 2025 seasons are currently unaviable but will be added when the data is made available in the Lahman Database.
 
 ## To-Do
 - Create a to-do
@@ -7,12 +10,6 @@
 - Finish README
 
 ## Required Libraries Installation
-**Pybaseball**
-> [!NOTE]
-> Offline versions of the Lahman database *(1871-2023)* can be found [here](http://seanlahman.com/). However, this project relies on access to the pybaseball library.
-```
-pip install pybaseball
-```
 **Pygame**
 ```
 pip install pygame

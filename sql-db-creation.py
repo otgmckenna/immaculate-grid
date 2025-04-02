@@ -3,7 +3,7 @@ import psycopg2
 import os
 
 # Folder containing the CSV files
-csv_folder = r'PATH TO CSV FOLDER'
+csv_folder = r'E:\GitHub Repos\immaculate-grid\lahman-data'
 
 # Map pandas dtypes to PostgreSQL types
 dtype_mapping = {
@@ -16,9 +16,9 @@ dtype_mapping = {
 
 # Connect to PostgreSQL
 conn = psycopg2.connect(
-    dbname="DATABASE NAME",
-    user="USERNAME",
-    password="PASSWORD",
+    dbname="lahman-baseball",
+    user="postgres",
+    password="password",
     host="localhost",
     port="5432"
 )
